@@ -12,7 +12,8 @@ $feeds['feeds'] = array(
   'lastfm' => 'http://ws.audioscrobbler.com/1.0/user/greenfday6/recenttracks.rss',
   'reader' => 'http://www.google.com/reader/public/atom/user/11743205354558987835/state/com.google/broadcast',
   'flickr'=> 'http://api.flickr.com/services/feeds/photos_public.gne?id=97764086@N00&lang=en-us&format=rss_200',
-  'twitter'=>'http://twitter.com/statuses/user_timeline/14393059.rss'
+  'twitter'=>'http://twitter.com/statuses/user_timeline/14393059.rss',
+  'github'=>'https://github.com/JimShoe.atom',
 );
 $feeds['names'] = array(
   $feeds['feeds']['delicious'] => 'Del.icio.us',
@@ -20,7 +21,8 @@ $feeds['names'] = array(
   $feeds['feeds']['lastfm'] => 'Last.fm',
   $feeds['feeds']['reader'] => 'Google Reader',
   $feeds['feeds']['flickr'] => 'Flickr',
-  $feeds['feeds']['twitter'] => 'Twitter'
+  $feeds['feeds']['twitter'] => 'Twitter',
+  $feeds['feeds']['github'] => 'github',
   );
 //////////////////////////////////////////////////////////////////
 //This will murge all the feeds into a new SimplePie
